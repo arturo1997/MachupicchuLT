@@ -178,7 +178,7 @@ get_header();
                         <div class="lenguaje">
                             <?php if ('es' == pll_current_language( )) {
                         ?>
-                            <a lang="en-GB" hreflang="en-GB" href="<?php echo remove_query_arg('lang', home_url()); ?>">
+                            <a lang="en-GB" hreflang="en-GB" href="<?php echo pll_home_url('en'); ?>">
                                 English
                                 <img class="icon-language"
                                     src="<?php echo get_template_directory_uri(); ?>/images/ingles-icon.png" alt="" />
@@ -186,8 +186,7 @@ get_header();
                             <?php
                         } else{
                         ?>
-                            <a lang="es-EC" hreflang="es-EC"
-                                href="<?php echo remove_query_arg('lang', home_url()); ?>/es/">
+                            <a lang="es-EC" hreflang="es-EC" href="<?php echo pll_home_url('es'); ?>">
                                 Spanish
                                 <img class="icon-language"
                                     src="<?php echo get_template_directory_uri(); ?>/images/espanol-icon.png" alt="" />
@@ -241,7 +240,7 @@ get_header();
                     <div class="lenguaje">
                         <?php if ('es' == pll_current_language( )) {
                         ?>
-                        <a lang="en-GB" hreflang="en-GB" href="<?php echo home_url(); ?>">
+                        <a lang="en-GB" hreflang="en-GB" href="<?php echo pll_home_url('en'); ?>">
                             En
                             <img class="icon-language"
                                 src="<?php echo get_template_directory_uri(); ?>/images/ingles-icon.png" alt="" />
@@ -249,7 +248,7 @@ get_header();
                         <?php
                         } else{
                         ?>
-                        <a lang="es-EC" hreflang="es-EC" href="<?php echo home_url(); ?>/es/">
+                        <a lang="es-EC" hreflang="es-EC" href="<?php echo pll_home_url('es'); ?>">
                             Es
                             <img class="icon-language"
                                 src="<?php echo get_template_directory_uri(); ?>/images/espanol-icon.png" alt="" />
