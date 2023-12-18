@@ -176,23 +176,25 @@ get_header();
 
 
                         <div class="lenguaje">
-                        <?php if ('es' == pll_current_language( )) {
+                            <?php if ('es' == pll_current_language( )) {
                         ?>
-                        <a lang="en-GB" hreflang="en-GB" href="http://machupicchu-luna-tours.local/">
-                            English
-                            <img class="icon-language" src="<?php echo get_template_directory_uri(); ?>/images/ingles-icon.png" alt="" />
-                        </a>
-                        <?php
+                            <a lang="en-GB" hreflang="en-GB" href="<?php echo home_url(); ?>">
+                                English
+                                <img class="icon-language"
+                                    src="<?php echo get_template_directory_uri(); ?>/images/ingles-icon.png" alt="" />
+                            </a>
+                            <?php
                         } else{
                         ?>
-                        <a lang="es-EC" hreflang="es-EC" href="http://machupicchu-luna-tours.local/es/">
-                            Spanish
-                            <img class="icon-language" src="<?php echo get_template_directory_uri(); ?>/images/espanol-icon.png" alt="" />
-                        </a>
+                            <a lang="es-EC" hreflang="es-EC" href="<?php echo home_url(); ?>/es/">
+                                Spanish
+                                <img class="icon-language"
+                                    src="<?php echo get_template_directory_uri(); ?>/images/espanol-icon.png" alt="" />
+                            </a>
 
-                        <?php
+                            <?php
                         }?>
-                    </div>
+                        </div>
 
 
 
@@ -226,7 +228,7 @@ get_header();
                                 </a>
                             </li>
                             <li>
-                                <a class="button" href="https://machupicchulama.com/reserva-tu-viaje/">Consulte
+                                <a class="button" href="<?php echo home_url(); ?>/reserva-tu-viaje/">Consulte
                                     ahora</a>
                             </li>
                         </ul>
@@ -238,16 +240,18 @@ get_header();
                     <div class="lenguaje">
                         <?php if ('es' == pll_current_language( )) {
                         ?>
-                        <a lang="en-GB" hreflang="en-GB" href="http://machupicchu-luna-tours.local/">
+                        <a lang="en-GB" hreflang="en-GB" href="<?php echo home_url(); ?>">
                             En
-                            <img class="icon-language" src="<?php echo get_template_directory_uri(); ?>/images/ingles-icon.png" alt="" />
+                            <img class="icon-language"
+                                src="<?php echo get_template_directory_uri(); ?>/images/ingles-icon.png" alt="" />
                         </a>
                         <?php
                         } else{
                         ?>
-                        <a lang="es-EC" hreflang="es-EC" href="http://machupicchu-luna-tours.local/es/">
+                        <a lang="es-EC" hreflang="es-EC" href="<?php echo home_url(); ?>/es/">
                             Es
-                            <img class="icon-language" src="<?php echo get_template_directory_uri(); ?>/images/espanol-icon.png" alt="" />
+                            <img class="icon-language"
+                                src="<?php echo get_template_directory_uri(); ?>/images/espanol-icon.png" alt="" />
                         </a>
 
                         <?php
