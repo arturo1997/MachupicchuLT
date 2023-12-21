@@ -33,6 +33,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	--color-logo1: #007a00;
 	--color-logo2: #ffb31f;
 	--negro-medio: #424242;
+	--white: #ffffff;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -184,8 +185,13 @@ header#masthead {
 .header-horario svg g path{
 	fill: var(--color-principal) !important;
 }
-.lenguaje{
+.lenguaje-desktop ul{
 	padding-left: 20px;
+}
+.lang-item{
+}
+.current-lang{
+	display: none;
 }
 /*--------------------------------------------------------------
 >>>>>>>>>>>>>>>>>>>>>> ADAPTACION PARA DESKTOP
@@ -226,7 +232,7 @@ header#masthead {
 		display: flex;
 		align-items: center;
 	}
-	.lenguaje, .telefono, .email{
+	.lenguaje-mobile, .telefono, .email{
 		display: flex;
 		height: 40px;
 		align-items: center;
@@ -234,13 +240,16 @@ header#masthead {
 		border-left: 1px solid #eee;
 		padding: 0 10px;
 	}
-	.lenguaje a, .telefono a, .email a{
+	.lenguaje-mobile ul{
+		padding: 0;
+	}
+	.lenguaje-mobile a, .telefono a, .email a{
 		display: flex;
 		height: 40px;
 		align-items: center;
 		justify-content: center;
 	}
-	.lenguaje a{
+	.lenguaje-mobile a{
 		color: white;
 		font-size: 20px;
 	}
@@ -505,39 +514,51 @@ h2.entry-title a:hover {
 ----------------------------------------------------------------
 */
 @media screen and (max-width: 860px){
-	.porque-elegirnos{
-		flex-direction: column;
-	}
+
 }
-.porque-elegirnos{
-	display: flex;
-	gap: 18px;
-}
+
 .porque-elegirnos-item{
-	background: var(--color-secundario);
-	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
-	padding: 20px;
-	text-align: center;
-	border-radius: 30px;
+	/*box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);*/
+	border-radius: 4px;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	gap: 20px;
-	color: white;
+	color: #494949;
+	flex: 1;
+	padding: 10px;
+	background-color: white;
 }
+.porque-elegirnos-item-header{
+	display: flex;
+	align-items: center;
+	color: #000;
+}
+.porque-elegirnos-item-header h3{
+	text-transform: uppercase;
+}
+
 .experiencia-local-icon svg g path, .flexibilidad-personalizada-icon  svg g path, .servicio-calidad-icon svg g path{
-	fill: var(--color-principal);
+	fill: var(--white);
 }
 .experiencia-local-icon, .flexibilidad-personalizada-icon, .servicio-calidad-icon {
-	border: 1px solid var(--color-principal);
-	width: 40px;
-	height: 40px;
-	padding: 18px;
-	border-radius: 40px;
-	margin-right: 20px;
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	border-radius: 4px;
+	margin-right: 10px;
+	background-color: var(--color-logo2);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .porque-elegirnos-item h3 {
 	text-align: left;
+}
+.container-presentation-grid{
+	display: grid;
+	gap: 1rem;
+	grid-auto-rows: auto;
+	grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
 }
 
 

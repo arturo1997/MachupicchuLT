@@ -877,10 +877,6 @@ h4.tour-dia-titulo{
 .tab-titles a.active {
     font-weight: bold; /* Cambia el estilo del título de la pestaña activa, como ponerlo en negrita */
 }
-.porque-elegirnos-item-header{
-	display: flex;
-	align-items: center;
-}
 
 
 .tab-acordeon{

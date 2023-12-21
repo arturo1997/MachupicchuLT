@@ -21,6 +21,8 @@
                         'taxonomy' => 'category',
                         'parent' => $parent_category->term_id
                     ));
+
+
                     if (!empty($subcategories)) {
                         foreach ($subcategories as $subcategoria) {
                             $img_post = get_field('post-img', $subcategoria);

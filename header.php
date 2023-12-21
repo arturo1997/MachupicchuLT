@@ -175,25 +175,10 @@ get_header();
 
 
 
-                        <div class="lenguaje">
-                            <?php if ('es' == pll_current_language( )) {
-                        ?>
-                            <a lang="en-GB" hreflang="en-GB" href="<?php echo esc_url(pll_home_url('en')); ?>">
-                                English
-                                <img class="icon-language"
-                                    src="<?php echo get_template_directory_uri(); ?>/images/ingles-icon.png" alt="" />
-                            </a>
-                            <?php
-                        } else{
-                        ?>
-                            <a lang="es-EC" hreflang="es-EC" href="<?php echo esc_url(pll_home_url('es')); ?>">
-                                Spanish
-                                <img class="icon-language"
-                                    src="<?php echo get_template_directory_uri(); ?>/images/espanol-icon.png" alt="" />
-                            </a>
-
-                            <?php
-                        }?>
+                        <div class="lenguaje-desktop">
+                            <ul>
+                                <?php pll_the_languages( array( 'show_flags' => 1,'show_names' => 1 ) ); ?>
+                            </ul>
                         </div>
 
 
@@ -237,25 +222,10 @@ get_header();
                 </div>
 
                 <div class="links-mobile">
-                    <div class="lenguaje">
-                        <?php if ('es' == pll_current_language( )) {
-                        ?>
-                        <a lang="en-GB" hreflang="en-GB" href="<?php echo esc_url(pll_home_url('en')); ?>">
-                            En
-                            <img class="icon-language"
-                                src="<?php echo get_template_directory_uri(); ?>/images/ingles-icon.png" alt="" />
-                        </a>
-                        <?php
-                        } else{
-                        ?>
-                        <a lang="es-EC" hreflang="es-EC" href="<?php echo esc_url(pll_home_url('es')); ?>">
-                            Es
-                            <img class="icon-language"
-                                src="<?php echo get_template_directory_uri(); ?>/images/espanol-icon.png" alt="" />
-                        </a>
-
-                        <?php
-                        }?>
+                    <div class="lenguaje-mobile">
+                        <ul>
+                            <?php pll_the_languages( array( 'show_flags' => 1,'show_names' => 1 ) ); ?>
+                        </ul>
                     </div>
                     <div class="telefono">
                         <a href="https://wa.me/51<?php echo get_theme_mod('enlace_telefono', '982934132'); ?>"

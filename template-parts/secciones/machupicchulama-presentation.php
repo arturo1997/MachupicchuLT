@@ -9,20 +9,21 @@
             <img src="<?php echo get_template_directory_uri(); ?>/images/logotipo.png" class="logo-footer" />
         </div>
         <h2 class="container-section-title">Machupicchu Luna Tours <br />
-            <span class="title-color">¡<?php echo ($lg)? 'EXPLORA LA MAGIA DE MACHU PICCHU': 'EXPLORE THE MAGIC OF MACHU PICCHU';?>!</span>
+            <span
+                class="title-color">¡<?php echo ($lg)? 'EXPLORA LA MAGIA DE MACHU PICCHU': 'EXPLORE THE MAGIC OF MACHU PICCHU';?>!</span>
         </h2>
         <p class="container-section-parrafo">
             <?php echo ($lg)? $parrafo_presentacion_es: $parrafo_presentacion_en;?>
         </p>
 
     </div>
-    <div class="porque-elegirnos container-section owl-carousel owl-carousel-3">
+    <div class="container-presentation-grid container-section ">
         <div class="porque-elegirnos-item ">
             <div class="porque-elegirnos-item-header">
                 <div class="experiencia-local-icon">
                     <?php get_template_part('images/iconos/experiencia-local-icon'); ?>
                 </div>
-                <h3>EXPERIENCIA LOCAL <?php echo $lg ?></h3>
+                <h3>EXPERIENCIA</br>LOCAL <?php echo $lg ?></h3>
             </div>
             <p>Nuestros guías son lugareños apasionados por su cultura y patrimonio. Te llevarán más allá de los lugares
                 turísticos habituales,
@@ -34,7 +35,7 @@
                 <div class="flexibilidad-personalizada-icon">
                     <?php get_template_part('images/iconos/flexibilidad-personalizada-icon'); ?>
                 </div>
-                <h3>FLEXIBILIDAD PERSONALIZADA</h3>
+                <h3>FLEXIBILIDAD</br>PERSONALIZADA</h3>
             </div>
             <p>Entendemos que cada viajero es único. Ofrecemos opciones de tours personalizables para adaptarnos a tus
                 intereses y preferencias.
@@ -45,7 +46,7 @@
                 <div class="servicio-calidad-icon">
                     <?php get_template_part('images/iconos/servicio-calidad-icon'); ?>
                 </div>
-                <h3>SERVICIO DE CALIDAD</h3>
+                <h3>SERVICIO DE</br>CALIDAD</h3>
             </div>
             <p>Nos enorgullece brindar un servicio de primera clase. Desde la reserva inicial hasta el final de tu
                 viaje, estamos comprometidos en ofrecerte
@@ -57,7 +58,7 @@
                 <div class="servicio-calidad-icon">
                     <?php get_template_part('images/iconos/servicio-calidad-icon'); ?>
                 </div>
-                <h3>Experiencia Personalizada</h3>
+                <h3>Experiencia</br>Personalizada</h3>
             </div>
             <p>Ofrecemos tours personalizados para satisfacer las necesidades individuales de nuestros clientes.
             </p>
@@ -67,7 +68,7 @@
                 <div class="servicio-calidad-icon">
                     <?php get_template_part('images/iconos/servicio-calidad-icon'); ?>
                 </div>
-                <h3>Seguridad y Confiabilidad</h3>
+                <h3>Seguridad y</br>Confiabilidad</h3>
             </div>
             <p>Priorizamos la seguridad y el bienestar de nuestros clientes en todas nuestras excursiones.
             </p>
