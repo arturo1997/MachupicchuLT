@@ -14,7 +14,7 @@
 }
 .hero-entrada-img{
 	display: block;
-	height: 60vh;
+	height: calc(100vh - 198px);
 }
 .hero-entrada-img img{
 	object-fit: cover;
@@ -44,34 +44,62 @@
 .nav.rank-math-breadcrumb{
 	position: absolute;
 }
-.hero-titulo{
+.tour-titulo{
 	font-size: 5rem;
 	position: relative;
 }
-.hero-titulo::after {
-    position: absolute;
-    content: "";
-    width: 8rem;
-    height: 4px;
-    border-radius: 4px;
-    background-color: var(--color-principal);
-    left: 0;
-    bottom: 0;
+
+
+.tour-dias{
+	background: var(--color-logo2);
+	width: fit-content;
+	padding: 0px 10px;
+	border-radius: 4px;
+}
+.tour-precio{
+	background-color: var(--color-logo1);
+	width: fit-content;
+	padding: 0px 10px;
+	border-radius: 4px;
 }
 .tour-details{
 	font-size: 1.4rem;
 }
-.numero-price, .tour-precio{
+.numero-price, .tour-precio-numero{
 	font-size: 2rem;
 	font-weight: bold;
 }
-.separador2{
-	margin-left: 20px;
-	padding-left: 20px;
-	border-left: 2px solid;
-}
+
 .rank-math-breadcrumb{
 	position: absolute;
+	margin-top: 20px;
+}
+.rank-math-breadcrumb a{
+	display: block;
+	width: fit-content;
+	color: white;
+	border-radius: 20px;
+	padding: 5px 10px;
+	background-color: var(--color-logo2);
+}
+.rank-math-breadcrumb a:hover{
+	text-decoration: underline;
+}
+.rank-math-breadcrumb span.last{
+	display: block;
+	width: fit-content;
+	color: white;
+	border-radius: 10px;
+	padding: 5px 10px;
+}
+.rank-math-breadcrumb p span.separator{
+	font-size: 30px;
+	line-height: 20px;
+}
+.rank-math-breadcrumb p{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
 }
 	
 /* ------------ Caracteristicas------------------------*/
@@ -90,7 +118,7 @@
 	background-color: white;
 	padding: 20px;
 	gap: 20px;
-	border-radius: 30px;
+	border-radius: 4px;
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
 	margin: auto;
 }
@@ -250,6 +278,9 @@
 	.caracteristicas-list-item{
 		flex-direction: column;
 	}
+	.tour-titulo{
+		font-size: 4rem;
+	}
 }
 
 @media (max-width: 768px){
@@ -266,6 +297,10 @@
 		flex-direction: column;
 		padding: 0;
 	}
+	.tour-titulo{
+		font-size: 3rem;
+	}
+
 }
 
 @media (max-width: 576px){
@@ -283,6 +318,9 @@
 		box-sizing: border-box;
 		flex-direction: column;
 		padding: 0;
+	}
+	.tour-titulo{
+		font-size: 2.5rem;
 	}
 
 }
@@ -440,11 +478,11 @@ figure.wp-caption{
 	flex-wrap: wrap;
 	box-sizing: border-box;
 }
-.main-content li{
+.tabs-content li{
 	list-style-type: disc;
 	padding-bottom: 10px;
 }
-.main-content ul{
+.tabs-content ul{
 	padding-left: 30px;
 }
 .tab-content ul{
@@ -579,7 +617,10 @@ figure.wp-caption{
 }
 .main-sidebar{
 	flex-basis: 30%;
-	padding: 10px;
+}
+.main-sidebar-content{
+	margin: 0 10px;
+
 }
 .metodos-de-pagos-list{
 	display: flex;
@@ -592,12 +633,15 @@ figure.wp-caption{
 }
 .atencion-al-cliente{
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
-	border-radius: 30px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 10px;
 	margin-bottom: 20px;
+	background: #f5f6f6;
+}
+.atencion-al-cliente-list{
+	padding: 0;
 }
 .atencion-al-cliente-list li{
 	display: flex;
@@ -606,12 +650,13 @@ figure.wp-caption{
 }
 .metodos-de-pagos{
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
-	border-radius: 30px;
+	border-radius: 4px;
 	margin-bottom: 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 10px;
+	background: #f5f6f6;
 }
 .atencion-al-cliente-title{
 	font-weight: bold;

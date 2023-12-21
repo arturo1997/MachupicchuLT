@@ -69,7 +69,7 @@ jQuery(document).ready(function ($) {
             }
         },
         nav: true,
-        navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
+        navText: ["<div class='nav-btn-3 prev-slide'></div>", "<div class='nav-btn-3 next-slide'></div>"],
     });
 });
 

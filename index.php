@@ -17,9 +17,8 @@ get_header();
 <div class="hero-principal">
     <div class="hero-desktop">
         <picture>
-            <source srcset="<?php echo get_template_directory_uri(); ?>/images/hero-machupicchu.webp" type="image/webp">
-            <img class="hero-destop-img"
-                src="<?php echo get_template_directory_uri(); ?>/images/hero-machupicchu.png" />
+            <source srcset="<?php echo get_template_directory_uri(); ?>/images/hero-principal.webp" type="image/webp">
+            <img class="hero-destop-img" src="<?php echo get_template_directory_uri(); ?>/images/hero-principal.png" />
         </picture>
 
         <div class="hero-desktop-content">

@@ -488,7 +488,7 @@ h2.entry-title a:hover {
 	font-size: 14px;
 	font-weight: 500;
 	color: white;
-	top: 50px;
+	top: 16px;
 	left: 16px;
 }
 /*---Colors Icon Section------*/
@@ -675,6 +675,16 @@ h2.entry-title a:hover {
       cursor: pointer;
       top: 114px !important;
   }
+  .owl-carousel .nav-btn-3{
+	height: 60px;
+	position: absolute;
+	width: 60px;
+	cursor: pointer;
+	top: 224px !important;
+}
+.nav-btn-3.next-slide{
+	right: 0px;
+}
 
   .owl-carousel .owl-prev.disabled,
   .owl-carousel .owl-next.disabled{
@@ -684,11 +694,9 @@ h2.entry-title a:hover {
 
   .owl-carousel .prev-slide{
       background: url('images/prev.svg') no-repeat scroll 0 0;
-      left: -15px;
   }
   .owl-carousel .next-slide{
       background: url('images/next.svg') no-repeat scroll 2px 0px;
-      right: -15px;
   }
   .owl-carousel .prev-slide:hover{
   }
