@@ -28,7 +28,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 ----------------------------------------------------------------
 **/
 :root{
-	--color-principal: #f79420;
+	--color-principal: #00c900;
 	--color-secundario: #672203;
 	--color-logo1: #007a00;
 	--color-logo2: #ffb31f;
@@ -558,7 +558,7 @@ h2.entry-title a:hover {
 	display: grid;
 	gap: 1rem;
 	grid-auto-rows: auto;
-	grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
 }
 
 
@@ -642,6 +642,11 @@ h2.entry-title a:hover {
 	display: flex;
 	align-items: center;
 	gap: 10px;
+	width: 100%;
+	justify-content: center;
+}
+.comentario-item-header-user img{
+	width: 50px !important;
 }
 .comentario-item-header-user span{
 	text-align: start;

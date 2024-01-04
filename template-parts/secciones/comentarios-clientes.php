@@ -20,7 +20,7 @@
                         <img loading="lazy" src="https://machupicchulama.com/wp-content/uploads/2023/09/user1.png"
                             alt="">
                         <span>
-                            <p>karinajJ9636BN</p>
+                            <p>Ovidio S</p>
                             <svg class="calificacion" viewBox="0 0 128 24" width="50" height="10" aria-label="">
                                 <path
                                     d="M 12 0C5.388 0 0 5.388 0 12s5.388 12 12 12 12-5.38 12-12c0-6.612-5.38-12-12-12z"
@@ -42,11 +42,12 @@
                     </div>
 
                 </div>
-                <h3 class="comentario-item-title">Todo fue una experiencia maravillosa.</h3>
+                <h3 class="comentario-item-title">Excelente</h3>
                 <div class="comentario-item-body">
-                    <p>Nos encanto todo, el guía Luis muy amable, atento, nos informo a detalle de toda la historia y
-                        siempre
-                        dispuesto a tomarnos fotos, los recomiendo al 100%</p>
+                    <p>Conoci machupicchu con la agencia luna tours, la atencion fue personalizada y muy cordial,
+                        gracias Lady.
+                        Quede maravillada con el destino.
+                        Recomiendo al 100% el servicio de la agencia.</p>
                 </div>
                 <div class="comentario-item-header-logotrip">
                     <img loading="lazy"
@@ -59,7 +60,7 @@
                         <img loading="lazy" src="https://machupicchulama.com/wp-content/uploads/2023/09/user2.png"
                             alt="">
                         <span>
-                            <p>E3574DIvictorl</p>
+                            <p>Xiomara P</p>
                             <svg class="calificacion" viewBox="0 0 128 24" width="50" height="10" aria-label="">
                                 <path
                                     d="M 12 0C5.388 0 0 5.388 0 12s5.388 12 12 12 12-5.38 12-12c0-6.612-5.38-12-12-12z"
@@ -81,11 +82,10 @@
                     </div>
 
                 </div>
-                <h3 class="comentario-item-title">Experiencia inolvidable</h3>
+                <h3 class="comentario-item-title">Excelente agencia</h3>
                 <div class="comentario-item-body">
-                    <p>La visita guiada me pareció excelente, la guia Yovana muy atenta en todo momento y muy preparada
-                        en cuanto a conocimientos
-                        acerca de MachuPicchu, los recuerdos y las fotos que tenemos son muy bonitas.
+                    <p>Agencia muy comprometida. Yovana fue una guía espectacular, nos enseñó mucho... siempre están
+                        pendientes de sus clientes
                     </p>
                 </div>
                 <div class="comentario-item-header-logotrip">
@@ -99,7 +99,7 @@
                         <img loading="lazy" src="https://machupicchulama.com/wp-content/uploads/2023/09/user3.png"
                             alt="">
                         <span>
-                            <p>carlosaV9247YP</p>
+                            <p>Juliana C</p>
                             <svg class="calificacion" viewBox="0 0 128 24" width="50" height="10" aria-label="">
                                 <path
                                     d="M 12 0C5.388 0 0 5.388 0 12s5.388 12 12 12 12-5.38 12-12c0-6.612-5.38-12-12-12z"
@@ -121,10 +121,12 @@
                     </div>
 
                 </div>
-                <h3 class="comentario-item-title">Excelente atención.</h3>
+                <h3 class="comentario-item-title">Excelente tour</h3>
                 <div class="comentario-item-body">
-                    <p>Todo fue muy bien. Siempre estuvieron al pendiente. Mishell y Yovana dieron un trato excelente.
-                        Recomendado.</p>
+                    <p>Pase unas vacaciones increíbles y el tour de Machu Picchu full day fue muy completo y
+                        asombroso!!!
+                        Recomiendo el tour con la agencia.
+                        Gracias Lady por ser servicial en tu atención.</p>
                 </div>
                 <div class="comentario-item-header-logotrip">
                     <img loading="lazy"
@@ -137,7 +139,7 @@
                         <img loading="lazy" class="hero-destop-img"
                             src="<?php echo get_template_directory_uri(); ?>/images/user4.png" alt="" />
                         <span>
-                            <p>TravelYaSV</p>
+                            <p>Luis S</p>
                             <svg class="calificacion" viewBox="0 0 128 24" width="50" height="10" aria-label="">
                                 <path
                                     d="M 12 0C5.388 0 0 5.388 0 12s5.388 12 12 12 12-5.38 12-12c0-6.612-5.38-12-12-12z"
@@ -159,11 +161,11 @@
                     </div>
 
                 </div>
-                <h3 class="comentario-item-title">Experiencia Perú septiembre 2023</h3>
+                <h3 class="comentario-item-title">Machu Picchu experiencia excelente</h3>
                 <div class="comentario-item-body">
-                    <p>Bonita experiencia y excelentes guías a cargo de los tours. Sin duda alguna complacidos con el
-                        servicio y seguimos encantados
-                        de seguir trabajando con la agencia.</p>
+                    <p>La puntualidad que ofrece esta empresa y la responsabilidad de los guías turísticos es excelente,
+                        nuestro guía el Sr Luis Ángel tenía un dominio excelente del tema y nos tomó muy buenas fotos
+                    </p>
                 </div>
                 <div class="comentario-item-header-logotrip">
                     <img loading="lazy"

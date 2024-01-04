@@ -25,9 +25,8 @@
                 </div>
                 <h3>EXPERIENCIA</br>LOCAL <?php echo $lg ?></h3>
             </div>
-            <p>Nuestros guías son lugareños apasionados por su cultura y patrimonio. Te llevarán más allá de los lugares
-                turísticos habituales,
-                compartiendo historias y conocimientos auténticos.
+            <p>Descubre Machu Picchu con guías locales, expertos en la historia y la cultura de la región, ofreciendo
+                una autenticidad única.
             </p>
         </div>
         <div class="porque-elegirnos-item ">
@@ -37,8 +36,8 @@
                 </div>
                 <h3>FLEXIBILIDAD</br>PERSONALIZADA</h3>
             </div>
-            <p>Entendemos que cada viajero es único. Ofrecemos opciones de tours personalizables para adaptarnos a tus
-                intereses y preferencias.
+            <p>Ajustamos cada experiencia según tus preferencias, brindando itinerarios flexibles y actividades
+                adaptadas a tus necesidades individuales.
             </p>
         </div>
         <div class="porque-elegirnos-item ">
@@ -48,9 +47,8 @@
                 </div>
                 <h3>SERVICIO DE</br>CALIDAD</h3>
             </div>
-            <p>Nos enorgullece brindar un servicio de primera clase. Desde la reserva inicial hasta el final de tu
-                viaje, estamos comprometidos en ofrecerte
-                una experiencia sin complicaciones y placentera.
+            <p>Comprometidos con la excelencia, garantizamos un servicio excepcional en todos los aspectos, asegurando
+                una experiencia inolvidable y de calidad.
             </p>
         </div>
         <div class="porque-elegirnos-item ">
@@ -60,7 +58,8 @@
                 </div>
                 <h3>Experiencia</br>Personalizada</h3>
             </div>
-            <p>Ofrecemos tours personalizados para satisfacer las necesidades individuales de nuestros clientes.
+            <p>Cada tour se adapta a tus intereses, asegurando momentos significativos y memorables durante tu visita a
+                Machu Picchu.
             </p>
         </div>
         <div class="porque-elegirnos-item ">
@@ -70,7 +69,41 @@
                 </div>
                 <h3>Seguridad y</br>Confiabilidad</h3>
             </div>
-            <p>Priorizamos la seguridad y el bienestar de nuestros clientes en todas nuestras excursiones.
+            <p>Tu seguridad es nuestra prioridad. Con estándares rigurosos y personal capacitado, garantizamos un viaje
+                seguro y confiable en cada detalle.
+            </p>
+        </div>
+        <div class="porque-elegirnos-item ">
+            <div class="porque-elegirnos-item-header">
+                <div class="servicio-calidad-icon">
+                    <?php get_template_part('images/iconos/servicio-calidad-icon'); ?>
+                </div>
+                <h3>asistencia permanente las 24 horas</h3>
+            </div>
+            <p>Estamos disponibles en todo momento. Con asistencia las 24 horas, disfruta de tu viaje con la
+                tranquilidad de saber que estamos aquí para cualquier eventualidad.
+            </p>
+        </div>
+        <div class="porque-elegirnos-item ">
+            <div class="porque-elegirnos-item-header">
+                <div class="servicio-calidad-icon">
+                    <?php get_template_part('images/iconos/servicio-calidad-icon'); ?>
+                </div>
+                <h3>Tours Disponibles Diariamente</h3>
+            </div>
+            <p>Ofrecemos flexibilidad de fechas, con salidas diarias para todos nuestros tours, permitiéndote planificar
+                tu visita a Machu Picchu según tu conveniencia.
+            </p>
+        </div>
+        <div class="porque-elegirnos-item ">
+            <div class="porque-elegirnos-item-header">
+                <div class="servicio-calidad-icon">
+                    <?php get_template_part('images/iconos/servicio-calidad-icon'); ?>
+                </div>
+                <h3>Sostenibilidad Garantizada</h3>
+            </div>
+            <p>Nos preocupamos por el entorno que exploramos. Nuestro compromiso con la sostenibilidad garantiza que
+                cada experiencia contribuya positivamente al medio ambiente y a las comunidades locales.
             </p>
         </div>
     </div>
